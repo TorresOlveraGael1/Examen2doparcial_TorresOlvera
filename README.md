@@ -25,17 +25,8 @@ Historia = float(input("Que nota has sacado en Historia? "))
 Lengua = float(input("Que nota has sacado en Lengua? "))
 
 #Establecemos las matyerias en una lista
-materias = {
-    'Matematicas' : Matematicas,
-    
-    'Fisica' : Fisica,
-    
-    'Quimica' : Quimica,
-    
-    'Historia' : Historia,
-    
-    'Lengua' : Lengua
-}
+
+materias = [Matematicas, Fisica, Quimica, Historia, Lengua]
 
 #Iprimimos las materias
 
@@ -62,5 +53,5 @@ elif  Lengua < 6:
     
     print("Debes repetir el curso de lengua")
 
-![image](https://github.com/user-attachments/assets/f15715fb-d0ae-4bf3-9fb5-5b68d62ea59f)
+![image](https://github.com/user-attachments/assets/e853e722-c84c-4896-81ac-8625e3e187ca)
 ![image](https://github.com/user-attachments/assets/f06216e4-9c35-452a-ab7b-90a4aee97ac7)
